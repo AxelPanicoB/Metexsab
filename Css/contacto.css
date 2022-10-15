@@ -1,0 +1,181 @@
+
+
+.contacto {
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 25px;
+    width: 100%;
+    height: 100%;  
+    text-decoration: none;
+    font-family: monospace;
+}
+
+form{
+    width: 55%;
+    padding: 25px;
+    background-color: #70b967;
+    height: 100%;
+    border-radius: 10px;  
+}
+
+form:hover{
+    background-color: rgba(119, 208, 105);
+}
+
+h2{
+   text-align: center;
+   margin: 0;
+   font-size: 30px;
+   margin-bottom: 20px;
+
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+}
+
+textarea{
+    min-width: 100% ;
+    max-width: 100%;
+    min-height: 100px;
+    max-height: 200px;
+}
+
+#boton {
+    width: 20%;
+    border-radius: 5px;
+    padding: 10px;
+    color:white;
+    background-color: #152697;
+}
+
+#boton:hover {
+    cursor: pointer;
+    background-color: #00107c;
+}
+
+
+.sociales2 img{
+    padding-top: 50px;
+    align-items: center;
+}
+.sociales2{
+    padding: 25px;
+    float:right ;   
+    width: 100%;
+    height: 500px;
+    color: rgb(10, 9, 9);
+}
+
+.sociales2 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.icon-mail a:hover{
+    color: rgb(239, 24, 24);
+  }
+
+.icon-phone a:hover {
+    color: rgb(43, 117, 213);
+  }
+
+.icon-whatsapp{
+    font-size:  20px;
+    padding-bottom: 10px;
+
+}
+
+.icon-whatsapp a:hover{
+    color: #25D366;
+}
+.icon-clock p {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.icon-clock {
+    display: flex;
+    
+}
+
+.icon-clock p:hover {
+    color: rgb(0, 76, 255); 
+}
+
+
+textarea:focus, input:focus, input[type]:focus {
+    border-color: rgb(0, 68, 255);
+    box-shadow: 0 2px 2px rgba(229, 103, 23, 0.075)inset, 0 0 8px rgb(0, 68, 255);
+    outline: 0 none;
+}
+
+footer{
+    width: 100%;
+    height: 100%;
+    padding-top: 25px;
+}
+
+.sociales2 img {
+  float: right;
+}
+
+@media (max-width:768px) {
+
+
+    .contacto {
+        width: 100%;
+        height: 50%;  
+       
+    }
+    form {
+        width: 92%;
+    }
+
+    #boton {
+        width: 40%;
+    }
+
+    .sociales2{ 
+        width: 105%;
+       
+    }
+
+    .sociales2 img{
+        width: 90%;
+    }
+}
+
+@media (max-width:425px) {
+
+
+    .contacto {
+        width: 50%;
+        height: 50%;  
+       
+    }
+    form {
+        width: 92%;
+    }
+
+    #boton {
+        width: 40%;
+    }
+
+    .sociales2{ 
+        width: 105%;
+       
+    }
+
+    .sociales2 img{
+        width: 90%;
+    }
+}

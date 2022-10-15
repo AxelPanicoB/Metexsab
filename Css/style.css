@@ -1,0 +1,93 @@
+@import url(/Suegros/Css/fontello.css);
+@import url(/Suegros/prueba/menu.css);
+@import url(/Suegros/prueba/baner.css);
+@import url(/Suegros/prueba/presentacion\ productos.css);
+@import url(/Suegros/prueba/footer.css);
+@import url(/Suegros/prueba/contacto.css);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=M+PLUS+Rounded+1c:wght@500&display=swap');
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
+ }
+
+
+body {
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    
+}
+
+
+body::-webkit-scrollbar{
+    width: 10px;
+ }
+
+body::-webkit-scrollbar-thumb{
+    background: rgba(119, 208, 105, 0.821);
+    border-right: 2px solid white ;
+    border-left:2px solid white ;
+    border-radius: 10px;
+ }
+ 
+ header {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.181);
+    
+ }
+
+ .contenedor {
+    width: 100%;
+    margin: auto;
+    
+ }
+
+header .contenedor {
+    display: table ;
+}
+
+
+main {
+    padding-top: 20px;
+}
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.whatsapp {
+    
+    position: fixed;
+    right: 15px;
+   bottom: 55px;
+   z-index: 1;
+  
+}
+.whatsapp img{
+    width: 80px;
+}
+
+.whatsapp img:hover{
+    width: 100px;
+    
+}
+
+
+@media (max-width: 768px) {
+    body::-webkit-scrollbar{
+        display: none;
+     }
+  
+}
